@@ -335,14 +335,14 @@ app.get("/admin/books/:id/delete",middlewareObj.isAdmin,function(req,res){
 // ---------------------------COMMENTS-------------------------------
 
 // CAT
-app.get("/cat/:id/reviews/new",function(req,res){
-	Book.findById(req.params.id,function(err,book){
-		if(err)
-			console.log(err)
-		else
-			res.render("comments/cat/new",{book : book});
-	});
-});
+// app.get("/cat/:id/reviews/new",function(req,res){
+// 	Book.findById(req.params.id,function(err,book){
+// 		if(err)
+// 			console.log(err)
+// 		else
+// 			res.render("comments/cat/new",{book : book});
+// 	});
+// });
 
 app.post("/cat/:id/reviews",function(req,res){
 	Book.findById(req.params.id,function(err,book){
