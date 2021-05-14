@@ -173,6 +173,13 @@ body{
     .animation-1-item-text h5{
         font-size: 3rem;
     }
+    .boxes{
+        display:block;
+    
+       margin-left: 4.2rem;
+       
+       
+    }
 }
 @media screen and (max-width:767px){
     .animation-1-item-text{

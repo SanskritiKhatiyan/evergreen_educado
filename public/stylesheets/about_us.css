@@ -40,7 +40,8 @@ h1, h2, h3, h4, h5,
  }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 5em 0; } 
+    }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -77,11 +78,17 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
-    max-width: 100%; } }
+    max-width: 100%; }
+    .about-space{
+      margin-top: 2vh;
+    } }
 
 @media (max-width: 991.98px) {
   .display-1, .display-3 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+    .about-space{
+      margin-top: 2vh;
+    } }
 
 
 

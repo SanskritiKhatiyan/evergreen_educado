@@ -333,6 +333,10 @@ body{
 		position:relative;
 		bottom:200px;
 	}
+	.single{
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media screen and (max-width: 1096px){
